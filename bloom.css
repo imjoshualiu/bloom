@@ -34,6 +34,7 @@ body {
     background-color: white; 
     color: black; 
     border: 2px solid  #b92d2d;
+    transition: background-color 0.5s;
 }
 
 .red:hover {
@@ -45,6 +46,7 @@ body {
     background-color: white; 
     color: black; 
     border: 2px solid #ec7e00;
+    transition: background-color 0.5s;
 }
 
 .orange:hover {
@@ -55,7 +57,8 @@ body {
 .yellow {
     background-color: white; 
     color: black; 
-    border: 2px solid #ecc905;
+    border: 2px solid #ecc905;.
+    transition: background-color 0.5s;
 }
 
 .yellow:hover {
@@ -67,6 +70,7 @@ body {
     background-color: white; 
     color: black; 
     border: 2px solid #4CAF50;
+    transition: background-color 0.5s;
 }
 
 .green:hover {
@@ -78,6 +82,7 @@ body {
     background-color: white; 
     color: black; 
     border: 2px solid #0082ec;
+    transition: background-color 0.5s;
 }
 
 .blue:hover {
@@ -89,6 +94,7 @@ body {
     background-color: white; 
     color: black; 
     border: 2px solid #4a05ec;
+    transition: background-color 0.5s;
 }
 
 .purple:hover {
@@ -101,6 +107,7 @@ body {
     color: black; 
     border: 3px solid;
     background-color: white;
+    transition: background-color 0.5s;
   }
   @keyframes bordColor {
     12.5% {
@@ -129,10 +136,12 @@ body {
     }
   }
 
-  .random:hover {
+.random:hover{
     background-color: #FF0000;
     animation: bgColor 5s infinite linear;
     border: none;
+    color: white
+    transition: background-color 0.5s;
   }
   @keyframes bgColor {
     12.5% {
