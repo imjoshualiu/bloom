@@ -57,7 +57,7 @@ body {
 .yellow {
     background-color: white; 
     color: black; 
-    border: 2px solid #ecc905;.
+    border: 2px solid #ecc905;
     transition: background-color 0.5s;
 }
 
@@ -107,7 +107,7 @@ body {
     color: black; 
     border: 3px solid;
     background-color: white;
-    transition: background-color 0.5s;
+    
   }
   @keyframes bordColor {
     12.5% {
