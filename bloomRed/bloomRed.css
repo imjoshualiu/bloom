@@ -1,8 +1,8 @@
-@keyframes my-keyframe {
+  @keyframes my-keyframe {
     0% {background-color: red;}
-    25% {background-color: rgb(190, 53, 53);}
-    50% {background-color: rgb(190, 101, 101);}
-    100% {background-color: rgb(236, 168, 168);}
+    40% {background-color: rgb(190, 53, 53);}
+    70% {background-color: green;}
+    100% {background-color: rgb(43, 128, 43);}
 }
 
 #animation {
