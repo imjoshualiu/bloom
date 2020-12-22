@@ -1,0 +1,15 @@
+@keyframes my-keyframe {
+    0% {background-color: red;}
+    25% {background-color: rgb(190, 53, 53);}
+    50% {background-color: rgb(190, 101, 101);}
+    100% {background-color: rgb(236, 168, 168);}
+}
+
+#animation {
+    width: 10000px;
+    height: 1000px;
+    background-color: red;
+    animation-name: my-keyframe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
