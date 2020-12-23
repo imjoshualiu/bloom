@@ -3,7 +3,8 @@
     <head>
         <title>CMM</title>
         <link rel="stylesheet" href="bloom.css">
-        <link rel="icon" href="images/colorChange.gif" type="gif" />
+        <link rel="icon" href="images/rainbowStripes.jpg"/>
+        <script type="text/javascript" src="bloom.js"></script>
         <!-- font --> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -15,8 +16,6 @@
         <div class="title">
             <h1>Color Me Moody</h1>
         </div>
-        
-        <br /> 
         
         <div class="a">
             <p>Colors have been shown to affect your mood. So turn off the lights and soak in the color!</p>
@@ -71,14 +70,15 @@
         </a>
 
             <br/>
+        <script>
+            function random() {
+                var Idx=Math.floor(Math.random()*6);
+                let colors=["bloomRed/bloomRed.html", "bloomOrange/bloomOrange.html", "bloomYellow/bloomYellow.html", "bloomGreen/bloomGreen.html", "bloomBlue/bloomBlue.html", "bloomPurple/bloomPurple.html"];
+                window.open(colors[Idx]);
+            }
+        </script>
         
-        <!-- random button 
-        <a href="bloom.js" id="function1">
-        
-            <div><button class="button random">I'm Feeling Lucky</button></div>
-
-        </a>
-        -->
+        <button class="button random" onclick="random()">I'm Feeling Lucky</button>
 
         <div class="footer">
             Created by Joshua Liu and Meghan Uyeda

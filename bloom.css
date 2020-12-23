@@ -111,13 +111,13 @@ body {
     
   }
   @keyframes bordColor {
-    12.5% {
+    0% {
         border-color: #FF0000;
     }
-    25% {
+    17% {
         border-color: #FFA500;
     }
-    37.5% {
+    33% {
         border-color: #FFFF00;
     }
     50% {
@@ -138,14 +138,14 @@ body {
   }
 
 .random:hover{
-    background-color: #FF0000;
+    background-color: #ca1d1d;
     animation: bgColor 5s infinite linear;
     border: none;
     color: white;
   }
   @keyframes bgColor {
     12.5% {
-      background-color: #FF0000;
+      background-color: #ca1d1d;
     }
     25% {
       background-color: #FFA500;
@@ -166,6 +166,6 @@ body {
       background-color: #9932CC;
     }
     100% {
-      background-color: #FF1493;
+      background-color: #ca1d1d;
     }
   }
